@@ -11,7 +11,7 @@ Portuguese | English | Japanese
 CET in Information Systems Technologies and Programming | Equivalences of the Bachelor's Degree in Computer Engineering from the Polytechnic Institute of Setúbal (IPS)
 
 ### Work Experience
-Full-Stack Outsystems Developer @RedshiftII - Solutions
+Full-Stack Outsystems Developer @Redshift II - Solutions
 - Did a project for managing projects, activities and actions within the Redshift Low-Code Team;
 - Lead a team of 4 people (each one especialized in one area of expertise).
 
@@ -31,7 +31,7 @@ Junior Outsystems Front-end Developer @Hi Interactive
 
 ### Projects
 
-Related to Redshift II Solutions
+Related to Redshift II - Solutions
 - APM Project - Activities and Project Management, which allows you to manage and survey projects, internal and
 external activities and actions of the Redshift team. Project done using Outsystems Traditional Web and
 Reactive Mobile.
@@ -49,12 +49,12 @@ Web.
 
 ### Certifications
 
-Qualifications Passport;
-Linkedin Skill Assessment Badges:
+- Qualifications Passport;
+- Linkedin Skill Assessment Badges:
 • HTML, CSS, JavaScript, Angular, Front-End Development, Agile Methodologies, Wordpress and CEO;
-SCRUMstudy: Accreditation Body for Scrum and Agile - Scrum Fundamentals Certified (SFC);
-CS50x Introduction to Computer Science Graduate 2024;
-EF SET English Certificate™ (EF Standard English Test);
-Multiple udemy Certifications (Web Development, Javascript, Typescript, Angular, Outsystems, UI, Programming
+- SCRUMstudy: Accreditation Body for Scrum and Agile - Scrum Fundamentals Certified (SFC);
+- CS50x Introduction to Computer Science Graduate 2024;
+- EF SET English Certificate™ (EF Standard English Test);
+- Udemy Certifications (Web Development, Javascript, Typescript, Angular, Outsystems, UI, Programming
 Logic);
-Multiple codecademy Certifications (HTML, CSS, Javascript and SASS);
+- Codecademy Certifications (HTML, CSS, Javascript and SASS);
