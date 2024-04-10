@@ -44,7 +44,7 @@ Related to Yes Marketing
 Related to Hi Interactive
 - Create the City of Oakland website and OAK APPS, using Style Guides. Project done using Outsystems Reactive
 Web.
--Development of internal projects/components within Fidelidade Seguros.
+- Development of internal projects/components within Fidelidade Seguros.
 
 
 ### Certifications
