@@ -51,7 +51,7 @@ Web.
 
 - Qualifications Passport;
 - Linkedin Skill Assessment Badges:
-• HTML, CSS, JavaScript, Angular, Front-End Development, Agile Methodologies, Wordpress and CEO;
+  HTML, CSS, JavaScript, Angular, Front-End Development, Agile Methodologies, Wordpress and CEO;
 - SCRUMstudy: Accreditation Body for Scrum and Agile - Scrum Fundamentals Certified (SFC);
 - CS50x Introduction to Computer Science Graduate 2024;
 - EF SET English Certificate™ (EF Standard English Test);
