@@ -29,24 +29,6 @@ Junior Outsystems Front-end Developer @Hi Interactive
 - I was responsible for designing, developing, and implementing frontend solutions using the OutSystems platform;
 - Created engaging and functional user interfaces (UI) that meet client requirements and adhere to best design practices.
 
-### Projects
-
-Related to Redshift II - Solutions
-- APM Project - Activities and Project Management, which allows you to manage and survey projects, internal and
-external activities and actions of the Redshift team. Project done using Outsystems Traditional Web and
-Reactive Mobile.
-
-Related to Yes Marketing
-- Create highly parameterable templates for internal software in a Gamification and Loyalty Services context;
-- Creation of a data/task management app (employee management, sales, cashback, suppliers, etc.);
-- Creation of a Geo-Localization API.
-
-Related to Hi Interactive
-- Create the City of Oakland website and OAK APPS, using Style Guides. Project done using Outsystems Reactive
-Web.
-- Development of internal projects/components within Fidelidade Seguros.
-
-
 ### Certifications
 
 - Qualifications Passport;
