@@ -1,7 +1,7 @@
 # EMSMoreno.github.io
 In here, you can see all the info about me and my professional background.
 
-#Outsystems Developer
+#Outsystems Developer & #Front-end Web Developer
 
 ### Languages
 
