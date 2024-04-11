@@ -71,7 +71,6 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  text-align: center;
 }
 
 .header-heading {
@@ -79,6 +78,7 @@ body {
   font-weight: 300;
   margin-bottom: 40px;
   margin: 0;
+  text-align: center;
 }
 
 .header-heading,
