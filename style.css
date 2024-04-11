@@ -91,7 +91,7 @@ body {
 }
 
 .brand-name span {
-  color: #9f5264;
+  color: #999999;
 }
 
 .btn {
@@ -185,7 +185,7 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  background: #9f5264;
+  background: #999999;
   position: absolute;
   right: 10px;
   top: -30px;
@@ -390,7 +390,7 @@ textarea {
 
 .contact-btn {
   padding: 10px 20px;
-  background: #9f5264;
+  background: #999999;
   color: #fff;
   border: none;
   outline: none;
