@@ -273,6 +273,13 @@ body {
   border: 1px solid #fcfcfc;
   border-radius: 10px;
   position: relative;
+  padding: 20px;  /* Add padding for better spacing */
+}
+
+.card-title {
+  text-align: center;  /* Center-align the card title */
+  font-size: 1.5em;
+  margin-bottom: 10px;  /* Add margin for spacing */
 }
 
 .card-container:nth-child(1) .card {
