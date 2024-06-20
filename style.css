@@ -1,23 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
 html {
-  scroll-behavior: smooth;
+scroll-behavior: smooth;
 }
 
 body {
-  margin: auto;
-  width: 100%;
-  position: relative;
-  background-color: #fcfcfc;
-  font-family: "Roboto", sans-serif;
+margin: auto;
+width: 100%;
+position: relative;
+background-color: #fcfcfc;
+font-family: "Roboto", sans-serif;
 }
 
 ::selection {
-  background: #9f526430;
+background: #9f526430;
 }
 
 /* navbar */
@@ -253,28 +252,57 @@ body {
 /* Timeline */
 
 .timeline-container {
-  width: 100%;
-  position: relative;
+width: 100%;
+position: relative;
 }
 
 .card-container {
-  width: 100%;
-  padding: 0 10%;
-  margin-top: -100px;
+width: 100%;
+padding: 0 10%;
+margin-top: -100px;
 }
 
 .card {
-  display: block;
-  width: 45%;
-  min-height: 200px;
-  min-width: 300px;
-  background: #000;
-  color: #fff;
-  border: 1px solid #fcfcfc;
-  border-radius: 10px;
-  position: relative;
-  padding: 20px;  /* Add padding for better spacing */
-  margin: 0 auto 100px; /* Center the card and add bottom margin */
+display: block;
+width: 45%;
+min-height: 200px;
+min-width: 300px;
+background: #000;
+color: #fff;
+border: 1px solid #fcfcfc;
+border-radius: 10px;
+position: relative;
+}
+
+.card-container
+(1) .card {
+margin-top: 150px;
+background-color: #fe6666;
+}
+
+.card-container
+(2) .card {
+background-color: #ffa654;
+}
+
+.card-container
+(3) .card {
+background-color: #18bfa1;
+}
+
+.card-container
+(4) .card {
+background-color: #33c0df;
+}
+
+.card-container
+(5) .card {
+background-color: #cb3bb4;
+}
+
+.card-container
+(6) .card {
+background-color: #e40a41;
 }
 
 .card-title {
@@ -314,22 +342,6 @@ body {
 
 .card-container:nth-child(even) .card {
   margin-left: auto;
-}
-
-.card-title {
-  width: 100%;
-  height: 60px;
-  font-weight: 300;
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 20px;
-}
-
-.card-body {
-  padding: 20px;
-  font-size: 1.1rem;
-  line-height: 1.8rem;
-  opacity: 0.8;
-  font-weight: 300;
 }
 
 .card-container:nth-child(odd) .card::after {
