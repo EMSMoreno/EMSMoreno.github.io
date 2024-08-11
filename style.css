@@ -64,7 +64,7 @@ body {
 
 /* Header */
 .header {
-    width: 100%;
+    width: 50%;
     height: 50vh;
     position: relative;
     background-image: url('img/custom-banner.png');
