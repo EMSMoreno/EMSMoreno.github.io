@@ -27,20 +27,48 @@
         --header-background: #1e1e1e;
       }
 
-      /* Estilo global usando variáveis */
       body {
         background-color: var(--background-color);
         color: var(--text-color);
         font-family: Arial, sans-serif;
+        font-size: 16px; /* Reduzido para 16px */
         transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      h1, h2, h3 {
+        font-weight: 900;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.75rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      p, a {
+        font-size: 1rem;
       }
 
       .navbar {
         background-color: var(--header-background);
-        padding: 20px;
+        padding: 10px 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+
+      .header {
+        padding-top: 80px;
       }
 
       /* Toggle switch for Dark Mode */
@@ -95,7 +123,7 @@
     </style>
   </head>
   <body>
-    <!-- navbar -->
+    <!-- Navbar -->
     <nav class="navbar">
       <h1 class="logo">Eduardo Moreno Online Resume/CV</h1>
       <ul class="nav-links-container">
@@ -123,8 +151,10 @@
       </ul>
     </nav>
 
-    <!-- Header -->
-<header class="header" id="home-section"></header>
+    <!-- Header (Banner) Section -->
+    <section class="header" id="home-section">
+      <img src="img/custom-banner.png" alt="Banner Image" style="width:100%; height:auto;">
+    </section>
 
     <!-- About Section -->
 
@@ -158,7 +188,7 @@
             </div>
         </div>
 
-         <!-- Skills -->
+         <!-- Skills Section -->
          <h2 class="sub-heading" id="skills-section">skills</h2>
 
          <div class="skills">
@@ -173,7 +203,7 @@
             <p class="skill-name">Web Development</p>
          </div>
 
-         <!-- Education & Experiences -->
+        <!-- Education & Experiences Section -->
       
 <h2 class="sub-heading" id="edu-section">Education & Experiences</h2>
 
@@ -214,7 +244,7 @@
     </div>
 </div>
 
-    <!-- Projects Gallery -->
+    <!-- Projects Gallery Section -->
     <section id="project-section">
   <h2 class="sub-heading">Projects</h2>
   <div class="gallery">
