@@ -282,6 +282,34 @@ body {
     transition: transform 0.3s ease;
 }
 
+/* Projects Gallery */
+#project-section {
+    padding: 100px 10vw;
+}
+
+.gallery {
+    display: flex; /* Usar flexbox para alinhar os projetos */
+    flex-wrap: wrap; /* Permitir que os itens se movam para a próxima linha se não houver espaço */
+    justify-content: space-between; /* Espaçamento uniforme entre os itens */
+}
+
+.gallery-item {
+    background-color: #fff;
+    margin: 10px; /* Espaçamento entre os projetos */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centralizar texto e imagem */
+    flex: 1 1 calc(20% - 20px); /* Cada item ocupa 20% do espaço disponível */
+    min-width: 200px; /* Largura mínima para garantir que não fiquem muito pequenos */
+}
+
+.gallery-item img {
+    max-width: 100%; /* Ajustar imagem para caber no item */
+    border-radius: 5px; /* Borda arredondada para a imagem */
+}
+
+
 #project-section {
   padding: 100px 10vw;
 }
