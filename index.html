@@ -13,32 +13,114 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
+
+    <style>
+      :root {
+        --background-color: #ffffff;
+        --text-color: #000000;
+        --header-background: #f1f1f1;
+      }
+
+      .dark-mode {
+        --background-color: #121212;
+        --text-color: #ffffff;
+        --header-background: #1e1e1e;
+      }
+
+      /* Estilo global usando variáveis */
+      body {
+        background-color: var(--background-color);
+        color: var(--text-color);
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+
+      .navbar {
+        background-color: var(--header-background);
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      /* Toggle switch for Dark Mode */
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+      }
+
+      .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+      }
+
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: 0.4s;
+        border-radius: 34px;
+      }
+
+      .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+
+      input:checked + .slider {
+        background-color: #2196f3;
+      }
+
+      input:checked + .slider:before {
+        transform: translateX(26px);
+      }
+
+      ::selection {
+        background: #9f526430;
+      }
+    </style>
   </head>
   <body>
-
     <!-- navbar -->
     <nav class="navbar">
       <h1 class="logo">Eduardo Moreno Online Resume/CV</h1>
       <ul class="nav-links-container">
-        <li class="nav-link"><a href="#home-section" class="links active">Home</a></li>
-        <li class="nav-link"><a href="#about-section" class="links">About</a></li>
-        <li class="nav-link"><a href="#skills-section" class="links">Skills</a></li>
-        <li class="nav-link"><a href="#edu-section" class="links">Education & Exp.</a></li>
-        <li class="nav-link"><a href="#project-section" class="links">Projects</a></li>
+        <li class="nav-link">
+          <a href="#home-section" class="links active">Home</a>
+        </li>
+        <li class="nav-link">
+          <a href="#about-section" class="links">About</a>
+        </li>
+        <li class="nav-link">
+          <a href="#skills-section" class="links">Skills</a>
+        </li>
+        <li class="nav-link">
+          <a href="#edu-section" class="links">Education & Exp.</a>
+        </li>
+        <li class="nav-link">
+          <a href="#project-section" class="links">Projects</a>
+        </li>
         <li class="nav-link">
           <label class="switch">
-            <input type="checkbox" id="toggle-dark-mode">
+            <input type="checkbox" id="toggle-dark-mode" />
             <span class="slider"></span>
           </label>
         </li>
       </ul>
-
-      <!-- Toggle Btn -->
-      <div class="toggle-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
     </nav>
 
     <!-- Header -->
@@ -158,6 +240,15 @@
     </div>
   </div>
 </section>
+
+<!-- JavaScript Inline -->
+    <script>
+      document
+        .getElementById("toggle-dark-mode")
+        .addEventListener("change", function () {
+          document.documentElement.classList.toggle("dark-mode");
+        });
+    </script>
 
   </body>
 </html>
