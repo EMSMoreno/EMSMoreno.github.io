@@ -64,13 +64,14 @@ body {
 
 /* Header */
 .header {
-    width: 10%;
-    height: 50vh;
-    position: relative;
-    background-image: url('img/custom-banner.png');
-    background-size: contain;
-    background-position: center;
-    overflow: hidden;
+    width: 100%; /* Full width */
+    height: 30vh; /* Adjust height to your preference */
+    position: relative; /* Position relative to the document */
+    background-image: url('img/custom-banner.png'); /* Image as background */
+    background-size: contain; /* Ensure the entire image fits within the header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    overflow: hidden; /* Prevent overflow */
 }
 
 .circle {
