@@ -65,9 +65,9 @@ body {
 /* Header */
 .header {
     width: 100%;
-    height: 100vh; /* Mantém a altura total da tela */
-    position: relative; /* Para posicionar a imagem corretamente */
-    overflow: hidden; /* Para evitar overflow caso a imagem exceda o container */
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
 }
 
 .header-img {
@@ -78,7 +78,6 @@ body {
     top: 0;
     left: 0;
 }
-
 .circle {
   width: 400px;
   height: 400px;
@@ -306,8 +305,8 @@ body {
 .language-flags img {
   width: 20px;
   vertical-align: middle;
-  margin-left: 5px; /* Espaçamento entre as bandeiras */
-  border-radius: 50%; /* Deixe as bandeiras com bordas arredondadas */
+  margin-left: 5px;
+  border-radius: 50%;
 }
 
 /* Table View */
