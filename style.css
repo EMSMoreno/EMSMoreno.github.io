@@ -259,21 +259,24 @@ body {
 
 .gallery-item {
     background-color: #fff;
-    margin: 10px;
+    margin: 10px; /* Espaçamento entre os projetos */
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    flex: 1 1 calc(25% - 20px);
-    min-width: 200px;
-    height: 300px;
+    text-align: center; /* Centralizar texto e imagem */
+    flex: 1 1 calc(20% - 20px); /* Cada item ocupa 20% do espaço disponível */
+    min-width: 200px; /* Largura mínima para garantir que não fiquem muito pequenos */
+    height: 300px; /* Altura fixa para todos os itens */
+    display: flex; /* Usar flexbox para alinhar o conteúdo */
+    flex-direction: column; /* Alinhar o conteúdo verticalmente */
+    justify-content: center; /* Centralizar verticalmente */
 }
 
 .gallery-item img {
-    max-width: 100%;
-    max-height: 200px;
-    object-fit: contain;
-    border-radius: 5px;
+    max-width: 100%; /* Ajustar imagem para caber no item */
+    max-height: 150px; /* Definir uma altura máxima para as imagens */
+    object-fit: contain; /* Manter a proporção da imagem */
+    border-radius: 5px; /* Borda arredondada para a imagem */
 }
 
 #project-section .sub-heading {
@@ -281,6 +284,24 @@ body {
     margin-bottom: 50px;
 }
 
+/* Media Queries para Responsividade */
+@media (max-width: 1060px) {
+    .gallery-item {
+        flex: 1 1 calc(33.33% - 20px); /* 3 itens por linha em telas médias */
+    }
+}
+
+@media (max-width: 750px) {
+    .gallery-item {
+        flex: 1 1 calc(50% - 20px); /* 2 itens por linha em telas pequenas */
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-item {
+        flex: 1 1 100%; /* 1 item por linha em telas muito pequenas */
+    }
+}
 
 /* Language Flags */
 .language-flags img {
