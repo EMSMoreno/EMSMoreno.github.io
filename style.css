@@ -64,64 +64,19 @@ body {
 
 /* Header */
 .header {
-  width: 100%;
-  height: 100vh;
-  padding: 0 10vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-}
-
-.header-heading {
-  font-size: 2.5rem;
-  font-weight: 300;
-  margin-bottom: 40px;
-  margin: 0;
-  text-align: center;
-}
-
-.header-heading,
-.brand-name {
-  display: block;
-  text-transform: capitalize;
-  font-size: 5rem;
-  margin: 10px 0;
-  font-weight: 400;
-}
-
-.brand-name span {
-  color: #999999;
-}
-
-.btn {
-  color: #121212;
-  text-decoration: none;
-  cursor: pointer;
-  background: #fff;
-  border: 1px solid #cecece;
-  border-radius: 10px;
-  padding: 10px 30px;
-  text-transform: capitalize;
-  transition: 0.5s;
-  margin-right: 20px;
-}
-
-.header-img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+    width: 100%;
+    height: 100vh; /* Mantém a altura total da tela */
+    position: relative; /* Para posicionar a imagem corretamente */
+    overflow: hidden; /* Para evitar overflow caso a imagem exceda o container */
 }
 
 .header-img {
-  position: absolute;
-  top: 60%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  width: 500px;
-  height: 500px;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .circle {
