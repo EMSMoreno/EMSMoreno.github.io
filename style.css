@@ -248,6 +248,15 @@ body {
   background-color: #9f5264;
 }
 
+#project-section {
+  padding: 100px 10vw;
+}
+
+#project-section .sub-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 /* Gallery */
 .gallery {
   display: flex;
